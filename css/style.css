@@ -1,0 +1,209 @@
+body {
+    margin: auto;
+    width: 940px;
+    height: 650px;
+    background: #f598e2;
+}
+
+.banner {
+    background: #f598e2;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin: 4%;
+}
+
+.title {
+    color: rgba(74, 6, 50, 1);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 100%;
+    text-shadow: 1px 1px 1px #6b0751;
+    margin: auto;
+    padding-right: 20%;
+}
+
+.container-left {
+    float: left;
+    width: 65%;
+}
+
+.input {
+    background: #f598e2;
+    margin: 2%;
+    height: 250px;
+    width: 80%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    outline: none;
+    color: rgba(74, 6, 50, 1);
+    resize: none;
+    border: 1px solid #000000;
+}
+
+.placeholder {
+    color: #000000;
+}
+
+.iconify {
+    float: left;
+    padding: 51% 0% 0% 2%;
+    font-size: 10px;
+}
+
+.warning {
+    padding-top: 5%;
+    margin-left: 1%;
+    color: rgba(73, 80, 87, 1);
+    opacity: 0.8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 50%;
+}
+
+.btn-left {
+    margin: 2% 15% 5% 5%;
+    height: 45px;
+    width: 35%;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    background: #c9128c;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 5px 0px rgba(133, 12, 74, 1);
+    cursor: pointer;
+}
+
+.btn-left:hover {
+    background-color: hotpink;
+    transition-duration: 0.65s;
+    transform:scale(1.20);
+}
+
+.btn-right {
+    background: rgb(8, 165, 168);
+    height: 45px;
+    width: 35%;
+    border-radius: 24px;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    background: #c9128c;
+    box-shadow: 1px 1px 5px 0px rgba(133, 12, 74, 1);
+    cursor: pointer;
+}
+
+.btn-right:hover {
+    background-color: hotpink;
+    transition-duration: 0.65s;
+    transform:scale(1.20);
+}
+
+
+.container-right {
+    background: rgba(240, 211, 226, 1);
+    float: right;
+    width: 35%;
+    height: 500px;
+    box-shadow: 0px 18px 32px -8px;
+    border-radius: 32px;
+}
+
+.img-busqueda {
+    width: 200px;
+    height: 200px;
+    margin: 7% 0 0 20%;
+}
+
+.no-input {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    background: rgba(240, 211, 226, 1);
+    height: 50px;
+    
+}
+
+.output {
+    resize: none;
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    width: 85%;
+    height: 180px;
+    color: #52043a;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: rgba(240, 211, 226, 1);
+    height: 50px;
+}
+
+.btn-copy {
+    margin-top: 0.0001%;
+    margin-left: 14%;
+    margin-bottom: 11.3%;
+    width: 70%;
+    height: 45px;
+    border-radius: 24px;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    background: #c9128c;
+    box-shadow: 1px 1px 5px 0px rgba(133, 12, 74, 1);
+    cursor: pointer;
+}
+
+.btn-copy:hover {
+    background-color: hotpink;
+    transition-duration: 0.65s;
+    transform:scale(1.20);
+}
+
+.copyright {
+    display: inline-block;
+    margin-top: 2.5%;
+    margin-right: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: rgba(74, 6, 50, 1);
+}
