@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <title>Encriptador</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+</head>
+<body>
+    <header>
+        <script src="scripts/script.js"></script>
+        <div class="banner">
+            <img class="logo" src="images/logo.png" alt="Logo Jessica">
+            <h1 class="title">Encriptador Textos</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container-left">
+            <textarea class="input" id="input" placeholder="Introduzca el texto aquí:" autocomplete="off" autofocus></textarea>
+            <span class="iconify" data-icon="bi:exclamation-octagon-fill" style="color: rgb(255, 0, 0);"></span>
+            <h2 class="warning">Escribir sólo en letras minúsculas y sin acentos.</h2>
+            <input class="btn-left" onclick="encrypt()" type="button" value="Encriptar">
+            <input class="btn-right" onclick="decrypt()" type="button" value="Desencriptar">
+        </div>
+        <div class="container-right">
+            <img class="img-busqueda" id="img-busqueda" src="images/busqueda.png" alt="Busqueda">
+            <h2 class="no-input" id="no-input">No has puesto ningún mensaje para encriptar o desencriptar...</h2>
+            <textarea class="output" id="output" placeholder="Ingresa el texto que deseas encriptar o desencriptar."></textarea>
+            <button class="btn-copy" id="btn-copy" onclick="copyText()">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy Jessica Cuéllar</p>
+    </footer>
+</body>
+</html>
