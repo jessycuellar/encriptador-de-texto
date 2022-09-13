@@ -7,7 +7,7 @@ function encrypt() {
     text = text.replace(/o/gm, "ober");
     text = text.replace(/u/gm, "ufat");
     document.getElementById("output").value = text;
-    document.getElementById("img-munheco").style.display = "none";
+    document.getElementById("img-busqueda").style.display = "none";
     document.getElementById("no-input").style.display = "none";
     document.getElementById("btn-copy").style.display = "show";
     document.getElementById("btn-copy").style.display = "inherit";
@@ -21,7 +21,7 @@ function decrypt() {
     text = text.replace(/ober/gm, "o");
     text = text.replace(/ufat/gm, "u");
     document.getElementById("output").value = text;
-    document.getElementById("img-munheco").style.display = "none";
+    document.getElementById("img-busqueda").style.display = "none";
     document.getElementById("no-input").style.display = "none";
     document.getElementById("btn-copy").style.display = "show";
     document.getElementById("btn-copy").style.display = "inherit";
@@ -34,6 +34,6 @@ function copyText() {
 }
 
 function removeAccents(text){
-	const wordStress = {'á':'a','é':'e','í':'i','ó':'o','ú':'u','Á':'A','É':'E','Í':'I','Ó':'O','Ú':'U','ñ':'n'};
+	const wordStress = {'á':'a','é':'e','í':'i','ó':'o','ú':'u','Á':'A','É':'E','Í':'I','Ó':'O','Ú':'U','ñ':'n', 'ç' : 'c', 'Ç' : 'c' };
 	return text.split('').map( character => wordStress[character] || character).join('').toString();	
 }
